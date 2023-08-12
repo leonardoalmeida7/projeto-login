@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +16,7 @@ body {
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
-    overflow-y: hidden;
+
 }
 
 main {
@@ -88,7 +93,7 @@ form > .campo {
     border: none;
     background-color: #94cfcd;
 
-    height: 90%;
+    height: 34px;
     width: calc(100% - 40px);
     padding: 3px;
     transform: translate(3px, -6px);
