@@ -6,6 +6,10 @@
         overflow: auto;
     }
 
+    .campo input[type=email], input[type=password] {
+        transform: translate(3px, -6px);
+    }
+
     section#login {
         width: 80vw;
         height: 280px;
@@ -27,6 +31,10 @@
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
         overflow: auto;
+    }
+
+    .campo input[type=email], input[type=password] {
+        transform: translate(3px, -6px);
     }
 
     section#login {
